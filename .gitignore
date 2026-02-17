@@ -1,0 +1,105 @@
+# -----------------------------
+# OS / editor noise
+# -----------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -----------------------------
+# Visual Studio / VS Code
+# -----------------------------
+.vs/
+.vscode/
+
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS databases / intellisense
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.sdf
+*.opensdf
+*.ipch
+*.iobj
+*.ipdb
+*.browse.VC.db*
+
+# CMake/VS CMake presets (optional - keep if you want them tracked)
+CMakeSettings.json
+CMakeUserPresets.json
+
+# -----------------------------
+# Build outputs (CMake / Ninja / MSBuild)
+# -----------------------------
+build/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/Temporary/
+*.ninja_deps
+*.ninja_log
+build.ninja
+rules.ninja
+compile_commands.json
+
+# MSBuild intermediate / output folders
+Debug/
+Release/
+x64/
+Win32/
+
+# Binaries / objects
+*.exe
+*.dll
+*.lib
+*.exp
+*.obj
+*.o
+*.a
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.res
+
+# MSBuild logs / tlogs
+*.tlog
+*.log
+*.lastbuildstate
+*.recipe
+*.opendb
+
+# -----------------------------
+# vcpkg
+# -----------------------------
+vcpkg_installed/
+**/vcpkg_installed/
+vcpkg/
+.vcpkg-root
+
+vcpkg/buildtrees/
+vcpkg/packages/
+vcpkg/downloads/
+
+# -----------------------------
+# App runtime/generated files
+# -----------------------------
+logs/
+**/logs/
+session_*.log
+
+settings.json
+sources.json
+
+# temp / partial downloads
+*.part
+*.tmp
+*.bak

@@ -1,0 +1,10 @@
+{
+  "name": "hl2mp-maps-downloader",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "ftxui",
+    "curl",
+    "bzip2",
+    "nlohmann-json"
+  ]
+}
